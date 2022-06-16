@@ -62,6 +62,12 @@ body {
     font-size: 56px;
     color: white;
 }
+section h2 {
+    color: var(--primary-color);
+    font-size: 36px;
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+}
 .about-me{
    text-align: center;
    margin-bottom: 20px;
@@ -91,7 +97,7 @@ section p {
     display: flex;
     justify-content: center;
     border-radius: 15px;
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("../images/pokemon-project.jpg");
     background-position: center center;
     background-size: 101% 350px;
     background-repeat: no-repeat;
@@ -130,6 +136,10 @@ section p {
 }
 .big-card a {
     text-decoration: none;
+}
+.run-buddy{
+    background-image: url("../images/run-buddy.jpg");
+    z-index: 1;
 }
 
 .card {
