@@ -97,7 +97,7 @@ section p {
     display: flex;
     justify-content: center;
     border-radius: 15px;
-    background-image: url("../images/pokemon-project.jpg");
+    background-image: url("../images/pet-portal.png");
     background-position: center center;
     background-size: 101% 350px;
     background-repeat: no-repeat;
@@ -139,8 +139,12 @@ section p {
 }
 .run-buddy{
     background-image: url("../images/run-buddy.jpg");
+    background-position: center center;
+    background-size: 100% 120px;
+    background-repeat: no-repeat;
     z-index: 1;
 }
+
 
 .card {
     display:flex;
@@ -157,6 +161,15 @@ section p {
     border-radius: 15px;
     z-index: 1;
 }
+
+.poke {
+    background-image: url("../images/pokemon-project.jpg");
+    background-position: center center;
+    background-size: 100% 120px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
 .card::after{
     content: "";
     position: absolute;
