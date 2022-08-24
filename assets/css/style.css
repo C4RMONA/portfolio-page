@@ -213,6 +213,20 @@ footer a:hover {
     color: var(--primary-color);
 }
 
+.modal-content {
+    background-color: var(--tertiary-color);
+    color: white;
+}
+
+.project-group {
+    text-align: center;
+    width: 100%;
+}
+
+.petport-img {
+    width: 100%;
+}
+
 /* Media Query for Smaller Desktop Screens and smaller */
 @media screen and (max-width: 980px) {
     header {
@@ -236,18 +250,4 @@ footer a:hover {
         text-align: center;
         width: 100%
     }
-
-}
-
-/* Media Query for Tablets and Smaller */
-@media screen and (max-width: 768px) {
-    section {
-        padding: 30px 15px;
-    }
-
-}
-
-/* Media Query for Mobile Phones and Smaller */
-@media screen and (max-width: 575px) {
-
 }

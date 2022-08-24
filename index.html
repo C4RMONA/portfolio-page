@@ -3,6 +3,12 @@
 
 <head>
   <!-- Link to external CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Staatliches&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
   <meta charset="utf-8" />
   <meta name="viewport" content width="device-width" , initial-scale="1.0" />
@@ -25,7 +31,8 @@
           <a href="#contact-me"> Contact Me</a>
         </li>
         <li>
-          <a href="https://docs.google.com/document/d/11YqywUpuSzH_X7VeYAoGBiYP55KlA32W0iupCnATDb8/edit?usp=sharing" target="_blank"> Resume</a>
+          <a href="https://docs.google.com/document/d/11YqywUpuSzH_X7VeYAoGBiYP55KlA32W0iupCnATDb8/edit?usp=sharing"
+            target="_blank"> Resume</a>
         </li>
       </ul>
     </nav>
@@ -42,24 +49,29 @@
     <img src="./assets/images/christian-carmona-potrait.jpg" id="about-me" class="portrait-img"
       alt="Portrait of Christian Carmona">
     <h2>About Me</h2>
-    <p>I am a full stack web developer with skills in Front-end development such as HTML, JavaScript, and CSS. I also have Back-end experience with Node.js, and MySQL. In a previous career, I was a Marine in the United States Marine Corps. During my service, I obtained various methods for problem-solving and troubleshooting issues creatively that were not within the scopes of a technical manual. As a web developer, I am able to passionately carry these skills with me to “think outside the box”, problem-solve, and learn continuously to grow and bring my absolute best to companies where I can continue to master my craft. 
+    <p>I am a full stack web developer with skills in Front-end development such as HTML, JavaScript, and CSS. I also
+      have Back-end experience with Node.js, Express, and MySQL. In a previous career, I was a Marine in the United
+      States Marine Corps. During my service, I obtained various methods for problem-solving and troubleshooting issues
+      creatively that were not within the scopes of a technical manual. As a web developer, I am able to passionately
+      carry these skills with me to “think outside the box”, problem-solve, and learn continuously to grow and bring my
+      absolute best to companies where I can continue to master my craft.
     </p>
   </section>
 
   <!-- accomplishments section -->
   <main id="work">
 
-      <a href="https://vet-pet-portal.herokuapp.com/" class= "big-card hover-effect" target="_blank">
-        <div>Pet-Portal</div>
-      </a>
+    <section id="petport" class="big-card hover-effect" data-toggle="modal" data-target="#project-modal">
+      <div>Pet-Portal</div>
+    </section>
     <div class="intro">
       <div class="sub-section">
-          <a href="https://c4rmona.github.io/run-buddy/" class="card run-buddy hover-effect" target="_blank">
-            <div>Run Buddy</div>
-          </a>
-          <a href="https://zachfulmer.github.io/Pokemon_Questionaire/" class="card poke hover-effect" target="_blank">
-            <div>Pokémon Questionaire</div>
-          </a>
+        <a href="https://c4rmona.github.io/run-buddy/" class="card run-buddy hover-effect" target="_blank">
+          <div>Run Buddy</div>
+        </a>
+        <a href="https://zachfulmer.github.io/Pokemon_Questionaire/" class="card poke hover-effect" target="_blank">
+          <div>Pokémon Questionaire</div>
+        </a>
       </div>
       <div class="sub-section">
         <section class="card">
@@ -81,4 +93,40 @@
     <a href="https://www.linkedin.com/in/christian-carmona-b01547103" target="_blank">LinkedIn</a>
   </footer>
 
+  <!-- Modal for Pet Portal -->
+  <div class="modal fade" id="project-modal" tabindex="-1" role="dialog" aria-labelledby="project-modal"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-content" role="document">
+      <div class="modal-header">
+        <h4 class="modal-title" id="project-modal">Pet Portal</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="project-group">
+        <p>Pet Portal is a collaborative effort with a creative twist to provide
+          clinics a unique way to communicate with clients.</p>
+        <img class="petport-img" src="./assets/images/PetPortal.gif" alt="">
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/Sam-Antics/pet-zone" target="_blank">
+        <button type="button" class="btn btn-success">GitHub</button>
+        </a>
+        <a href="https://vet-pet-portal.herokuapp.com/" target="_blank">
+        <button type="button" class="btn btn-primary">Deployed Website</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
+
+</html>
