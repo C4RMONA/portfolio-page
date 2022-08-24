@@ -48,7 +48,7 @@ body {
     background-position: 80%;
     background-size: cover;
     background-attachment: fixed;
-    margin: 1%;
+    /* margin: 1%; */
 }
 .hero {
     display: flex;
@@ -56,12 +56,24 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 20px;
-    margin-top: 200px;
+    margin-top: 100px;
+    /* height: 600px; */
+}
+
+.coffee{
+    background-image: url("../images/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg");
+    background-position: center center;
+    background-size: 100%;
+    margin: auto;
+    height: 1000px;
+    border-bottom: 5px solid var(--primary-color);
+
 }
 .hero h2 {
     margin-top: 80px;
     font-size: 56px;
     color: white;
+    text-decoration: none;
 }
 section h2 {
     color: var(--primary-color);
