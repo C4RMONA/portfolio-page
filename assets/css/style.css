@@ -151,13 +151,13 @@ section p {
     border: 5px solid var(--primary-color);
     margin: 10px;
     width: 600px;
-    height: 150px;
+    height: 200px;
     color: white;
     background-color: var(--secondary-color);
     border-radius: 15px;
     z-index: 1;
     background-position: center center;
-    background-size: 100% 120px;
+    background-size: 100% 170px;
     background-repeat: no-repeat;
 }
 
@@ -167,7 +167,7 @@ section p {
     border-radius: 15px;
     width: 101%;
     left: -2px;
-    height: 140px;
+    height: 190px;
     background-color: rgba(0, 0, 0, .5);
     z-index: -1;
     transition: transform 350ms ease-out;
