@@ -66,20 +66,22 @@
     </section>
     <div class="intro">
       <div class="sub-section">
+        <section id="just-tech" class="card just-tech hover-effect" data-toggle="modal"
+          data-target="#tech-project-modal">
+          <div>Just Tech News</div>
+        </section>
+        <section id="poke" class="card poke hover-effect" data-toggle="modal" data-target="#poke-project-modal">
+          <div>Pokémon Questionaire</div>
+        </section>
+      </div>
+      <div class="sub-section">
+        <section id="daily-schedule" class="card schedule hover-effect" data-toggle="modal"
+          data-target="#schedule-project-modal">
+          <div>Daily Scheduler</div>
+        </section>
         <a href="https://c4rmona.github.io/run-buddy/" class="card run-buddy hover-effect" target="_blank">
           <div>Run Buddy</div>
         </a>
-        <a href="https://zachfulmer.github.io/Pokemon_Questionaire/" class="card poke hover-effect" target="_blank">
-          <div>Pokémon Questionaire</div>
-        </a>
-      </div>
-      <div class="sub-section">
-        <section class="card">
-          coming soon..
-        </section>
-        <section class="card">
-          coming soon..
-        </section>
       </div>
     </div>
   </main>
@@ -106,26 +108,98 @@
       <div class="project-group">
         <p>Pet Portal is a collaborative effort with a creative twist to provide
           clinics a unique way to communicate with clients.</p>
-        <img class="petport-img" src="./assets/images/PetPortal.gif" alt="">
+        <img class="modal-img" src="./assets/images/PetPortal.gif" alt="">
       </div>
       <div class="modal-footer">
         <a href="https://github.com/Sam-Antics/pet-zone" target="_blank">
-        <button type="button" class="btn btn-success">GitHub</button>
+          <button type="button" class="btn btn-success">GitHub</button>
         </a>
         <a href="https://vet-pet-portal.herokuapp.com/" target="_blank">
-        <button type="button" class="btn btn-primary">Deployed Website</button>
+          <button type="button" class="btn btn-primary">Deployed Website</button>
         </a>
       </div>
     </div>
   </div>
 
+  <!-- Modal for Pet Pokemon -->
+  <div class="modal fade" id="poke-project-modal" tabindex="-1" role="dialog" aria-labelledby="poke-project-modal"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-content" role="document">
+      <div class="modal-header">
+        <h4 class="modal-title" id="poke-project-modal">Pokémon Questionaire</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="project-group">
+        <p>Pokémon Questionaire is a fun quiz game that tests a user's knowledge of Pokémons.</p>
+        <img class="modal-img" src="./assets/images/Pokemon Questionaire.gif" alt="">
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/ZachFulmer/Pokemon_Questionaire" target="_blank">
+          <button type="button" class="btn btn-success">GitHub</button>
+        </a>
+        <a href="https://zachfulmer.github.io/Pokemon_Questionaire/" target="_blank">
+          <button type="button" class="btn btn-primary">Deployed Website</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Just tech news -->
+  <div class="modal fade" id="tech-project-modal" tabindex="-1" role="dialog" aria-labelledby="tech-project-modal"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-content" role="document">
+      <div class="modal-header">
+        <h4 class="modal-title" id="tech-project-modal">Just Tech News</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="project-group">
+        <p>Just Tech News is a social media platform for developers that are in to blogging. Users can create an account
+          and interact with other developers</p>
+        <img class="modal-img" src="./assets/images/Just Tech News (1).gif" alt="">
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/C4RMONA/Just-Tech-News" target="_blank">
+          <button type="button" class="btn btn-success">GitHub</button>
+        </a>
+        <a href="https://c4-tech-news.herokuapp.com/" target="_blank">
+          <button type="button" class="btn btn-primary">Deployed Website</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Daily schedule -->
+  <div class="modal fade" id="schedule-project-modal" tabindex="-1" role="dialog"
+    aria-labelledby="schedule-project-modal" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-content" role="document">
+      <div class="modal-header">
+        <h4 class="modal-title" id="tech-project-modal">Daily Scheduler</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="project-group">
+        <p>Daily scheduler is a web application that uses Web API to store data so that a user may schedule out their
+          day.</p>
+        <img class="modal-img" src="./assets/images/Work Day Scheduler (1).gif" alt="">
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/C4RMONA/daily-scheduler" target="_blank">
+          <button type="button" class="btn btn-success">GitHub</button>
+        </a>
+        <a href="https://c4rmona.github.io/daily-scheduler/" target="_blank">
+          <button type="button" class="btn btn-primary">Deployed Website</button>
+        </a>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="./assets/js/script.js"></script>
 </body>
 

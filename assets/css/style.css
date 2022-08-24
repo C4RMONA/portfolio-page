@@ -48,6 +48,7 @@ body {
     background-position: 80%;
     background-size: cover;
     background-attachment: fixed;
+    margin: 1%;
 }
 .hero {
     display: flex;
@@ -86,6 +87,7 @@ section p {
     border: 5px solid var(--primary-color);
     border-radius: 15px;
 }
+
 .big-card {
     margin: auto;
     margin-bottom: 3.5%;
@@ -95,19 +97,13 @@ section p {
     position: relative;
     border: 5px solid var(--primary-color);
     display: flex;
-    justify-content: center;
     border-radius: 15px;
     background-image: url("../images/pet-portal.png");
-    background-position: center center;
     background-size: 101% 350px;
-    background-repeat: no-repeat;
     z-index: 1;
 }
 .big-card::after {
     content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
     width: 100%;
     height: 340px;
     border-radius: 15px;
@@ -118,6 +114,7 @@ section p {
     transform-origin: left;
 
 }
+
 .big-card:hover::after {
     transform: scaleX(0);
     transform-origin:right
@@ -126,81 +123,80 @@ section p {
 .big-card div {
     width: 100%;
     position: absolute;
-    left: 0;
-    top: 0;
     display: flex;
     justify-content: center;
     background: var(--secondary-color);
     border-radius: 10px 10px 0 0;
     color: #fff;
 }
-.big-card a {
-    text-decoration: none;
-}
+
 .run-buddy{
     background-image: url("../images/run-buddy.jpg");
-    background-position: center center;
-    background-size: 100% 120px;
-    background-repeat: no-repeat;
-    z-index: 1;
 }
 
+.poke {
+    background-image: url("../images/pokemon-project.jpg");
+}
+
+.just-tech {
+    background-image: url("../images/just-tech-news.png");
+}
+
+.schedule {
+    background-image: url("../images/daily-schedule.png");
+}
 
 .card {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
     text-align: center;
     border: 5px solid var(--primary-color);
     margin: 10px;
     width: 600px;
     height: 150px;
     color: white;
-    position: relative;
     background-color: var(--secondary-color);
     border-radius: 15px;
     z-index: 1;
-}
-
-.poke {
-    background-image: url("../images/pokemon-project.jpg");
     background-position: center center;
     background-size: 100% 120px;
     background-repeat: no-repeat;
-    z-index: 1;
 }
 
 .card::after{
     content: "";
     position: absolute;
-    top: 0;
-    right: 0;
     border-radius: 15px;
-    width: 590px;
+    width: 101%;
+    left: -2px;
     height: 140px;
     background-color: rgba(0, 0, 0, .5);
     z-index: -1;
     transition: transform 350ms ease-out;
     transform-origin: left;
 }
+
 .card:hover::after {
     transform: scaleX(0);
     transform-origin:right;
 }
+
 .sub-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 footer {
     text-align: center;
     color: white;
     margin-bottom: 40px;
+    margin-top: 80px;
 }
+
 footer h3 {
     font-size: 24px;
     color: var(--primary-color);
 }
+
 footer a {
     display:inline-flex;
     line-height: 1;
@@ -209,13 +205,16 @@ footer a {
     margin: 0 1%;
     text-decoration: none;
 }
+
 footer a:hover {
     color: var(--primary-color);
 }
 
 .modal-content {
     background-color: var(--tertiary-color);
+    border: 5px solid var(--primary-color);
     color: white;
+    border-radius: 15px;
 }
 
 .project-group {
@@ -223,7 +222,7 @@ footer a:hover {
     width: 100%;
 }
 
-.petport-img {
+.modal-img {
     width: 100%;
 }
 
