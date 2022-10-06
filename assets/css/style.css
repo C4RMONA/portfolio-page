@@ -110,7 +110,7 @@ section p {
     border: 5px solid var(--primary-color);
     display: flex;
     border-radius: 15px;
-    background-image: url("../images/pet-portal.png");
+    background-image: url("../images/reachteach.png");
     background-size: 101% 350px;
     z-index: 1;
 }
@@ -142,8 +142,8 @@ section p {
     color: #fff;
 }
 
-.run-buddy{
-    background-image: url("../images/run-buddy.jpg");
+.pet-port{
+    background-image: url("../images/pet-portal.png");
 }
 
 .poke {
